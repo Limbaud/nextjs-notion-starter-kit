@@ -2,30 +2,30 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '7875426197cf461698809def95960ebf',
+  rootNotionPageId: '6c7286fcd02e4aa6b2ee5f77daaafe29',  
 
-  // if you want to restrict pages to a single notion workspace (optional)
-  // (this should be a Notion ID; see the docs for how to extract this)
+  // if you want to restrict pages to a single notion workspace (optional)  
+  // (this should be a Notion ID; see the docs for how to extract this)  
   rootNotionSpaceId: null,
 
-  // basic site info (required)
-  name: 'Next.js Notion Starter Kit',
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
-  author: 'Travis Fischer',
+  // basic site info (required)  
+  name: '南极座头鲸刺身',  
+  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',  
+  author: 'Amgis',  
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+  description: 'Nothing Here.',  
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
-  // newsletter: '#', // optional newsletter URL
+  // twitter: 'transitive_bs',  
+  // github: 'transitive-bullshit',  
+  // linkedin: 'fisch2',  
+  // mastodon: '#', // optional mastodon profile URL, provides link verification  
+  // newsletter: '#', // optional newsletter URL  
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
-  // page-specific values will override these site-wide defaults
+  // page-specific values will override these site-wide defaults  
   defaultPageIcon: null,
   defaultPageCover: null,
   defaultPageCoverPosition: 0.5,
@@ -39,7 +39,7 @@ export default siteConfig({
   isRedisEnabled: false,
 
   // map of notion page IDs to URL paths (optional)
-  // any pages defined here will override their default URL paths
+  // any pages defined here will override their default URL paths  
   // example:
   //
   // pageUrlOverrides: {
