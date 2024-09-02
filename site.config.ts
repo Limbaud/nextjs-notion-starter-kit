@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)  
   name: '南极座头鲸刺身',  
-  domain: 'nextjs-notion-starter-kit.transitivebullsh.it',  
+  domain: 'sigma-notion.vercel.app',    
   author: 'Amgis',  
 
   // open graph metadata (optional)
